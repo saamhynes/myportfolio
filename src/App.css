@@ -1,38 +1,446 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Raleway:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: raleway, sans-serif;
+  /* display: flex; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.welcome-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+
+  /* width: 900px; */
+  font-size: 12px;
+  text-align: left;
+}
+
+.contact-btn {
+  background-color: #00000022;
+  color: #000000;
+  font-size: 10px;
+  border: none;
+  padding: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: font-weight 0.2s;
+}
+
+.contact-btn:hover {
+  font-weight: bold;
+}
+
+/* Experience Section on Homepage */
+
+.experience-container {
+  /* padding-left: 40px; */
+  margin-left: 60px;
+
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  gap: 25px;
+}
+
+.employment-box,
+.design-box {
+  padding-top: 34px;
+  align-self: start;
+  font-size: 8px;
+  height: 60px;
+  width: 90px;
+  border: 0.5px solid #000;
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.programming-box {
+  padding-top: 34px;
+  align-self: start;
+  font-size: 8px;
+  height: 60px;
+  width: 90px;
+  background-color: #00000022;
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+}
+
+.experience-bottom {
+  margin-left: 195px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 322px;
+  height: 45px;
+  background-color: #00000022;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.exp-box,
+.dev-box,
+.dig-box {
+  font-size: 8px;
+  padding-top: 10px;
+  align-self: start;
+  font-size: 8px;
+  height: 60px;
+  width: 90px;
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* About Me Section on Home Page*/
+
+.aboutme-container {
+  margin-left: 150px;
+  /* background-color: green; */
+  width: 500px;
+  margin-top: 40px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  text-align: left;
+}
+
+.aboutme h2 {
+  margin-top: 20px;
+}
+
+.aboutme-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.357);
+}
+
+.aboutme-link:hover {
+  font-weight: bold;
+}
+
+.projects-container {
+  margin-left: 80px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.carousel-container {
+  padding-top: 20px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.carousel .legend {
+  /* position: relative;
+  z-index: 2; */
+}
+
+.carousel-root {
+  max-width: 100%;
+}
+
+.carousel .slide {
+  background-color: white;
+  border: 0.5px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 200px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+/* P Bar*/
+.carousel .slide p.legend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
   color: white;
+  height: 25px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #000000;
+  position: absolute;
 }
 
-.App-link {
-  color: #61dafb;
+.carousel .slide p {
+  font-size: 10px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Arrows */
+carousel .control-prev,
+.carousel .control-next {
+  background-color: #333;
+  color: white;
+  font-size: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel .control-prev {
+  left: 10px;
+}
+
+.carousel .control-next {
+  right: 10px;
+}
+
+.carousel .slide img {
+  margin-top: 20px;
+  width: 150px;
+  height: 160px;
+  margin-bottom: 10px;
+  opacity: 0.7;
+  transition: opacity 0.3 ease;
+}
+
+/* .carousel .slide:hover img {
+  opacity: 1;
+} */
+
+/*/ Project1 Page /*/
+
+.home-link {
+  width: 35px;
+  background-color: #00000022;
+  color: #000000;
+  font-size: 10px;
+  border: none;
+  padding: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: font-weight 0.2s;
+  text-decoration: none;
+}
+
+.home-link:hover {
+  font-weight: bold;
+}
+
+.project1-welcome-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-left: 50%;
+  width: 900px;
+  font-size: 12px;
+  text-align: left;
+}
+
+.page-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  margin-left: 60%;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+}
+
+.where-page {
+  display: flex;
+
+  flex-direction: column;
+  height: 1000px;
+  width: 1000px;
+}
+
+.project1-image {
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  margin-top: 40px;
+  width: 300px;
+  height: 300px;
+}
+
+.foot-container {
+  margin-top: 80px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+/*/ About Me Page /*/
+
+.amp-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-left: 50%;
+  width: 900px;
+  font-size: 12px;
+  text-align: left;
+}
+
+.aboutme-para {
+  width: 350px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.aboutmepage-image {
+  width: 350px;
+  height: auto;
+  margin-top: 40px;
+}
+
+.foot-container2 {
+  margin-top: 60px;
+  margin-left: 115px;
+  margin-bottom: 20px;
+}
+
+/* Project 2 Page */
+
+.project2-welcome-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-left: 40%;
+  width: 900px;
+  font-size: 12px;
+  text-align: left;
+}
+
+.aboutme-para {
+  width: 350px;
+  margin-top: 20px;
+  justify-content: left;
+}
+
+.p2-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project2-image {
+  margin-top: 40px;
+  width: 400px;
+  height: 250px;
+
+  margin-right: 150px;
+}
+
+.proj2-foot-container {
+  margin-top: 60px;
+  margin-right: 140px;
+  margin-bottom: 20px;
+  padding-left: 140px;
+}
+
+/* Figma Page */
+.figma-welcome-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-left: 40%;
+  width: 900px;
+  font-size: 12px;
+  text-align: left;
+}
+
+.figma-para {
+  width: 350px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.figma-page {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  align-items: left;
+}
+
+.figma-image1 {
+  margin-top: 20px;
+  margin-right: 175px;
+  width: 300px;
+  height: 600px;
+}
+
+.figma-image2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 150px;
+}
+
+.figma-image3 {
+  width: 200px;
+  height: 300px;
+  margin-left: 45px;
+}
+
+.figma-image4 {
+  margin-top: 20px;
+
+  width: 250px;
+  height: 300px;
+  margin-left: 10px;
+}
+
+.figma-image {
+  width: 300px;
+  width: 300px;
+}
+
+.figma-foot-container {
+  margin-top: 60px;
+  margin-right: 140px;
+  margin-bottom: 20px;
+}
+
+/* Contact Page */
+
+.contact-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  margin-left: 70px;
 }
