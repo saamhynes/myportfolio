@@ -45,7 +45,7 @@ const Project1 = () => {
             </div>
             </div>
 
-            <div className='foot-container'>
+            <div className='foot-container-proj1'>
 
                 <Link to="/" className='home-link'>
                     Home
