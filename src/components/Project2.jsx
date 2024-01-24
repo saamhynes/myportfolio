@@ -25,7 +25,7 @@ const Project2 = () => {
 
         <br/>
 
-        <p>As beginners, I feel this is a normal part learning react. As time has gone on, I have gotten better at keeping order within my code and it is easier to navigate between files.</p>
+        <p>As beginners, I feel this is a normal part of learning react. As time has gone on, I have gotten better at keeping order within my code and it is easier to navigate between files.</p>
 
         </div>
 
@@ -61,11 +61,11 @@ const Project2 = () => {
                 className='contact-btn'>GitHub</button>
 
             </div>
-            </div>
+        </div>
 
         
             
-        </>
+    </>
 
         
     

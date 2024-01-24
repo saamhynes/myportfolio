@@ -43,7 +43,7 @@ const Figma = () => {
 
         <img src={require("./Images/SS3F1.png")} alt="Project Image" className='figma-image3' /> 
 
-        <img src={require("./Images/SS4F1.png")} alt="Project Image" className='figma-image4' /> 
+        <img src={require("./Images/SS4F1.png")} alt="Project Image" className='figma-image4' style={{border: '1px solid black', borderRadius: '10px'}} /> 
     </div>
     
     </div>

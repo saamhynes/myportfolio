@@ -7,8 +7,11 @@ const AboutMe = () => {
 
     <div className='aboutme'>
         <h2>About Me</h2><br/>
-          <p>Adept at crafting captivating designs, I harmonize cutting-edge digital tools, artistic finesse, and code wizardry. From meticulous UI/UX in Figma to Procreate's imaginative canvas, my creations resonate with audiences, achieving exceptional impact. Embracing the authenticity of pen and
-          paper, I infuse my frontend prowess with JavaScript, HTML/CSS, and backend expertise, delivering seamless and impactful results.<Link to="/AboutMePage" className='aboutme-link'> more..</Link></p>
+          <p>After a decade in oil and gas, I've switched gears to dive into software development. As a student in this tech world, I'm excited about learning and growing. Bringing problem solving skills from a decade in the oil patch, I'm eager to channel this expertise into coding and development.
+
+          I'm diving into new languages and frameworks, soaking up everything I can. I love teamwork and innovation, and I'm eager to bring my mix of skills to the ever-evolving tech scene.
+
+          I'm on the lookout for opportunities to learn, grow, and make my mark in the thrilling world of software development.<Link to="/AboutMePage" className='aboutme-link'> more..</Link></p>
     </div>
 
     <div className='image-container'>

@@ -14,7 +14,7 @@ const Project1 = () => {
 
         <p>This was my very first project as a Software Development<br/> student. The project was to create a webpage using HTML,<br/> and CSS. We used a Trello board to organize the project and<br/> bring all of our ideas together. Everyday we had stand up<br/> meetings to discuss what we were working on and how we<br/> were progressing. I was nervous, but excited and everything<br/> went smoothly for our team of three.  </p><br/>
 
-        <p>We based our project on restaurants in the St. John's area. We<br/> chose some boldphotos to bring a pop of colour to our webpage<br/> and kept everything else black and white to keep it fairly neutral.</p><br/>
+        <p>We based our project on restaurants in the St. John's area. We<br/> chose bold photos to bring a pop of colour to our webpage and<br/> kept everything else black and white to keep it fairly neutral.</p><br/>
 
         <p>I created two pages for the project. One was the 'Home' page, <br/>and the other was the 'Where' page, which showed where you<br/> can eat different cuisines.</p><br/>
 

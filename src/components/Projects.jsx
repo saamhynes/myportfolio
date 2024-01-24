@@ -1,45 +1,55 @@
-import React from 'react'
-import {Carousel} from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Projects = () => {
-  return (<>
-
-    <div className='projects-container'>
-
+  return (
+    <>
+      <div className='projects-container'>
         <h3>Projects and Designs</h3>
-
-        <div className='carousel-container'>
-          <Carousel showArrows={false} infiniteLoop={true}>
-      
-        <div>
-        <Link to='/project1'>
-          <img src={require("./Images/WDSP1.png")} alt="web image" />
-          <p className='legend'>Web Development</p>
-          </Link>
-        </div>
+        <br/>
         
-      <div>
-        <Link to='/project2'>
-          <img src={require("./Images/SS1HM.png")} alt="web image" />
-        <p className='legend'>React Hangman</p>
+        <div className='project-group'>
+        <Link to='/project1' className='project-box'>
+          <p className='legend'>Web Development</p>
         </Link>
+
+        <Link to='/project2' className='react-box'>
+          <p className='legend'>React Hangman</p>
+        </Link>
+
+        <Link to='/figma' className='project-box'>
+          <p className='legend'>Figma<br/> Designs</p>
+        </Link>
+
+        
+        </div>
+
       </div>
 
-      <div>
-        <Link to='/figma'>
-          <img src={require("./Images/FigmaCover.png")} alt="figma designs" />
-        <p className='legend'>Figma</p>
+
+      {/* Second row of projects */}
+      <div className='projects-container'>
+        
+        <div className='project-group'>
+        <Link to='/project4' className='react-box'>
+          <p className='legend'>Front End Margos Garden</p>
         </Link>
+
+        <Link to='/project5' className='project-box'>
+          <p className='legend'>Star Wars<br/> HTTP Server</p>
+        </Link>
+
+        <Link to='/project6' className='react-box'>
+          <p className='legend'>Java Library<br/> Management</p>
+        </Link>
+
+        
+        </div>
+
       </div>
-      </Carousel>
-      </div>
-      </div>
-      </>
-      
-  )
+    </>
+  );
 }
 
-export default Projects
+export default Projects;

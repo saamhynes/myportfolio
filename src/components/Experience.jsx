@@ -14,7 +14,7 @@ const Experience = () => {
         
         <div className='programming-box'>
             <img src="https://cdn-icons-png.flaticon.com/128/4131/4131518.png" alt="Glasses Icon" className='glasses-image' />
-            <p>7+ Months of</p>
+            <p>1+ Years of</p>
             <h2>Programming</h2>  
         </div>
 
@@ -27,6 +27,7 @@ const Experience = () => {
     </div>
     
     
+    
 
     <div className='experience-bottom'>
         <div className='exp-box'>
@@ -35,7 +36,7 @@ const Experience = () => {
         </div>
 
         <div className='dev-box'>
-            <p>Python and Javascript</p>
+            <p>Python-Javascript-Java</p>
             <h2>Developer</h2>
         </div>
 

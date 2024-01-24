@@ -8,17 +8,17 @@ const AboutMePage = () => {
 
     <br/>
 
-    <h1 className='whoami'>Who Am I</h1>
+    <h1 className='whoami'>Who Am I?</h1>
 
     <div className='aboutme-para'>
 
-    <p>I am Samantha Hynes. A Software Development student at Keyin College. I am in my third semester of software development and really enjoying myself thus far.</p><br/>
+    <p>I am Samantha Hynes. A Software Development student at Keyin College. I am in my fourth semester of Software Development and really enjoying myself thus far.</p><br/>
 
     <p>I haven't always been in the tech industry. For the last 10 years I have been a Red Seal Welder in oil and gas. I knew welding wasn't where I would be for the rest of my life, but it has helped shaped me into who I am today.</p><br/>
 
     <p>I love to learn and I love to create. I am passionate about self growth and learning new things. I enjoy team dynamics but also enjoy the solitude that comes with working alone. </p><br/>
 
-    <p>Being new to the tech industry I am so far having fun with the aesthetics of webpages and UI/UX design. I grew up with a love for art and its nice to be able to have a creative outlet in this industry. I am excited for what my future entails. </p>
+    <p>Being new to the tech industry I am so far having fun with the aesthetics of webpages and UI/UX design. I grew up with a love for art and its nice to be able to have a creative outlet in this industry. I am excited for what my future entails. </p><br/>
 
     <p>Outside of school and work I love to spend time with my little family. Living in Labrador we have great winters and spend the majority of our time in the snow. In the summers you can find us in our garden - experimenting to grow something new.</p>
 
