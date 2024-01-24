@@ -30,6 +30,7 @@ function App() {
           <Route path="/project6" element={<Project6 />} />
           <Route path="/aboutmepage" element={<AboutMePage />} />
           <Route path="/figma" element={<Figma />} />
+          <Route path="/myportfolio" element={<Home />} />
         </Routes>
       </Router>
     </div>
