@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.4b8f4b90.css",
+    "main.js": "/myportfolio/static/js/main.1f7a5acd.js",
+    "static/js/787.c20ea551.chunk.js": "/myportfolio/static/js/787.c20ea551.chunk.js",
+    "static/media/MargosGarden.jpeg": "/myportfolio/static/media/MargosGarden.d83dde540ef4cf38c29a.jpeg",
+    "static/media/SS1P1.png": "/myportfolio/static/media/SS1P1.35d4c1fc7173f4c084e2.png",
+    "static/media/NorthernLights.jpeg": "/myportfolio/static/media/NorthernLights.0a8ec3976be667a3de8d.jpeg",
+    "static/media/SS3W1.png": "/myportfolio/static/media/SS3W1.26196dd5d56a19219221.png",
+    "static/media/SS3P1.png": "/myportfolio/static/media/SS3P1.e7e6ca42f2b6357a1432.png",
+    "static/media/SS2W1.png": "/myportfolio/static/media/SS2W1.2fafd779b2277bd291dc.png",
+    "static/media/Image.jpeg": "/myportfolio/static/media/Image.84476091e04bd9682390.jpeg",
+    "static/media/FamSkidoo.jpeg": "/myportfolio/static/media/FamSkidoo.f58fbd40ac567e70e7d3.jpeg",
+    "static/media/SS1W1.png": "/myportfolio/static/media/SS1W1.c6632ee33d3850dbc76f.png",
+    "static/media/SS1HM.png": "/myportfolio/static/media/SS1HM.0f47a46dc55551c16d5e.png",
+    "static/media/SS2P1.png": "/myportfolio/static/media/SS2P1.3d21c3cdc83679c5820f.png",
+    "static/media/Welding2.jpeg": "/myportfolio/static/media/Welding2.226aff42c63f499e00bf.jpeg",
+    "static/media/Welding.jpeg": "/myportfolio/static/media/Welding.6a06e46ed91d46a26768.jpeg",
+    "static/media/SS2HM.png": "/myportfolio/static/media/SS2HM.f1aa45e43c27b07d0e69.png",
+    "static/media/SS3F1.png": "/myportfolio/static/media/SS3F1.abadedb333705985b227.png",
+    "static/media/SS2F1.png": "/myportfolio/static/media/SS2F1.01b586154f11d9b49f93.png",
+    "static/media/SS4W1.png": "/myportfolio/static/media/SS4W1.53b8c81ebda53f3ff9cb.png",
+    "static/media/SS2MG2.jpeg": "/myportfolio/static/media/SS2MG2.d98f879dfcaa2c3682ed.jpeg",
+    "static/media/SSMG1.jpeg": "/myportfolio/static/media/SSMG1.2c8909aa082846729649.jpeg",
+    "static/media/SS4F1.png": "/myportfolio/static/media/SS4F1.8688df67cb4936f444dc.png",
+    "static/media/SS1F1.png": "/myportfolio/static/media/SS1F1.73c9ffa23a026aa90d06.png",
+    "index.html": "/myportfolio/index.html",
+    "main.4b8f4b90.css.map": "/myportfolio/static/css/main.4b8f4b90.css.map",
+    "main.1f7a5acd.js.map": "/myportfolio/static/js/main.1f7a5acd.js.map",
+    "787.c20ea551.chunk.js.map": "/myportfolio/static/js/787.c20ea551.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b8f4b90.css",
+    "static/js/main.1f7a5acd.js"
+  ]
+}
